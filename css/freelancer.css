@@ -224,7 +224,7 @@ header.masthead h2 {
     font-size: 1.55em;
   }
   .container{
-        max-width: 70%;
+        max-width: 1080px;
     }
 }
 

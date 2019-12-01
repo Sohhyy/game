@@ -43,7 +43,9 @@
           <li class="nav-item mx-0 mx-lg-1">
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="index.html">Home</a>
           </li>
-
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="About.html">About</a>
+          </li>
           <li class="nav-item mx-0 mx-lg-1">
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="cv.pdf">Resume</a>
           </li>
@@ -104,7 +106,7 @@
 
               <tr>
                 <td>My Contributions</td>
-                <td>Gameplay Programming, Playtesting, Level Designing of Single-Player Mode</td>
+                <td>Gameplay Programming, Game Desing, Playtesting, Level Design of Single-Player Mode</td>
               </tr>
 
               <tr>
@@ -133,68 +135,51 @@
         <p>I am the gameplay programmer and level designer of single-player mode. I am responsible for all the design and programming works in single-player mode except map design. Since I am a big fan of Dark Souls, I learned a lot from Dark Souls and make this TPS game contain many RPG elements. I will briefly introduce how I design the main character, the enemies and the level. </p>
          <hr class="star-primary">
         <h3>Character Design</h3>
-        <p>The main character is a wizard. The wizard can use three different magic. The first one is fireball. It doesn't cost mana. The second one is ice magic. It will slow down the enemy. Its damage is low, and it will cost mana. This magic has a long cool down time. The third magic is speed up. After using this magic, the player can move faster. It will also cost mana. The player can use this magic to dodge the enemy's attack. </p>
+        <p>The main character is a wizard. The wizard can use three different magic. The first one is fireball. It doesn't cost mana. The second one is ice magic. It will slow down the enemy. Its damage is low, and it will cost mana. This magic has a long cool down time. The third magic is speed up. After using this magic, the player can move faster. It will also cost mana. The player can use this magic to dodge the enemy's attack.</p>
          <hr class="star-primary">
         <h3>Enemies Design</h3>
-        <p>There are four types of enemies.  </p>
+        <p>There are four types of enemies. </p>
+        <p>The first type is Goblin. The AI of goblin is easy. If the player enter the alert range or being attacted by the player, the goblin will begin to chase the player. If the distance between the goblin and the player is close enough, the goblin will stop to attact the player with its sword.</p>
+        <p>The second type is Skeleton Knight. Its logic is very similar with the goblin's AI. One thing different is that if the player is far away from it, it will raise a shield to defend. At this time, it will not be harmed by the player. Only when the player is close to it will it show weakness. This design will force the players to battle with Skelention Knight in a very close distence.</p>
+        <p>The third type is Evil Watcher. Its logic is also very similar with the goblin's AI. One thing different is that it flys on the sky and uses ranged magic attact. Also, after each attacting, it will move a distance in a random direction. This design will increase the difficulites of players to aim at this enemy. </p>
+        <p>The fourth type is the final boss - Demon Lord. This boss has three stages. At the first stage, Demon Lord will use its sword and whip to attact the player. When its health drops to two thirds, it will fly to the sky. And it will use the fire dragon magic. Many fire dragon will appear on the ground. The player will get hurt if he/she is attacted by the fire dragon. After using fire dragon magic, the Demon Lord will return to the ground and become second stage. At this stage, it will move faster and its damage also become higher. When its health drops to one thirds, it will fly to the sky again and use fire tornado magic. It will summon many fire tornado on the ground and these fire tornado will chase the player. Each fire tornado will last for 10 seconds. After all the fire tornado disappear, the boss comes to the third stage. At this stage, its attact mode is the same as before. But it will summon two fire tornado every 10 seconds. The player needs to attact the boss while dodging fire tornado. </p>
+ <div class="row">
+          <div class="col-md-6 col-lg-6">
+
+              <img class="img-fluid" src="img/portfolio/WizardKnight/Goblin.gif" alt=""> 
+
+          </div>
+          <div class="col-md-6 col-lg-6">
+
+              <img class="img-fluid" src="img/portfolio/WizardKnight/Knight.gif" alt=""> 
+
+          </div>
+          <div class="col-md-6 col-lg-6">
+
+              <img class="img-fluid" src="img/portfolio/WizardKnight/Watcher.gif" alt=""> 
+
+          </div>
+          <div class="col-md-6 col-lg-6">
+
+              <img class="img-fluid" src="img/portfolio/WizardKnight/Boss.gif" alt=""> 
+
+          </div>
+        </div>
          <hr class="star-primary">
         <h3>Level Design</h3>
-        <p>I am the gameplay programmer and level designer of single player mode. Since I am a big fan of Dark Souls, I refer to a lot of elements of Dark Souls and make this TPS game contain many RPG elements. By developing this game, I learn a lot about the flow of developing a game and get familiar with Unity Engine. </p>
+        <p>Level design follows the principle of from simple to difficult. There are six waves of enemies. The propose of the first three waves is to let the player get familiar with how to control the character and the attack mode of each enemy. Goblin is the simplest enemy. Therefore, the first wave enemies contains two goblins. And then the player need to defeat the Skeleton Knight. The third wave is the Evil Watcher.  After getting familiar with the enemies, in the fourth and fifth waves, the player need to fight with these three types of enemies together. The fourth wave contains more goblins and Skeleton Knights and the fifth waves contains more Evil Watcher. This slight change makes players need to use different strategies. And finally the player need to defeat the boss. In additon, I set many hidden Health Pots and Mana Posts on the map to encourage the player to explore the map.</p>
         <hr class="star-primary">
         <h3>Notable Experience</h3>
         <ul>
           <li>The first game I made.</li>
-          <li>Implemented AI, UI, player’s action, character’s behavior and other elements of Single player mode by myself.</li>
-          <li>Learned how to work with others and solve problems together.</li>
+          <li>Designed the character, enemies and the level.</li>
+          <li>Implemented all the coding works in single-player mode such as character controller, enemies' AI and UI.</li>
         </ul>
 
 
 
 
-        <hr class="star-primary">
-        <h3>Screenshots</h3>
-        <div id="myCarousel" class="carousel slide" >
-          <!-- Indicators -->
-          <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-            <li data-target="#myCarousel" data-slide-to="3"></li>
-          </ol>
-
-          <!-- Wrapper for slides -->
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="img/portfolio/WizardKnight/WizardKnight1.jpg" alt="">
-
-            </div>
-            
-            <div class="carousel-item">
-              <img src="img/portfolio/WizardKnight/WizardKnight2.jpg" alt="">
-
-            </div>
-            
-            <div class="carousel-item">
-              <img src="img/portfolio/WizardKnight/WizardKnight3.jpg" alt="">
-
-            </div>
-
-            <div class="carousel-item">
-              <img src="img/portfolio/WizardKnight/WizardKnight4.jpg" alt="">
-
-            </div>
-          </div>
-
-          <!-- Left and right controls -->
-          <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
+       
       </article>
     </div>
   </header>
